@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume {
+  background: radial-gradient(circle at top, #0f0f10 0%, #050506 100%);
+  color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.resume-container {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(20, 20, 22, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid #1f1f22;
+  border-radius: 20px;
+  padding: 60px 50px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.resume-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.resume-header h1 {
+  font-size: 2.8rem;
+  color: #00adb5;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.resume-header p {
+  font-size: 1.1rem;
+  color: #cfcfcf;
+}
+
+.resume-section {
+  margin-bottom: 45px;
+}
+
+.resume-section h2 {
+  color: #00adb5;
+  border-bottom: 2px solid #1f1f22;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-bottom: 4px;
+  font-size: 1.6rem;
+}
+
+.resume-section p,
+.resume-section li {
+  color: #d3d3d3;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.resume-card {
+  background: #141416;
+  border: 1px solid #1f1f22;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.resume-card:hover {
+  border-color: #00adb5;
+  transform: translateY(-4px);
+}
+
+.resume-card h3 {
+  color: #f0f0f0;
+  margin-bottom: 8px;
+}
+
+.resume-card span {
+  color: #00adb5;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #18181b;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #1f1f22;
+  transition: all 0.3s ease;
+}
+
+.skills li:hover {
+  background: #00adb5;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.resume-download {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resume-download a {
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.resume-download a:hover {
+  background: #0097a3;
+  box-shadow: 0 0 15px #00adb5aa;
+}

@@ -1,0 +1,21 @@
+@import "./components/navabar/navbar.css";
+@import "./pages/Home/Home.css";
+@import "./pages/Service/service.css";
+@import "./pages/Project/project.css";
+@import "./pages/contact/contact.css";
+@import "./pages/CV/Cv.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+font: 400 16px/1.5 'Cairo', sans-serif;
+ background: linear-gradient(135deg, #0f0f15, #1c1c2a);
+  color: #fff;
+}
+
