@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-
 const Resume = () => {
   return (
     <div className="resume">
@@ -13,10 +12,19 @@ const Resume = () => {
       >
         {/* ===== Header ===== */}
         <header className="resume-header">
+          <motion.div
+            className="profile-image"
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            <img src="public/images/me.jpeg" alt="Profile" />
+          </motion.div>
+
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.3 }}
           >
             Khàléd Zàkàrÿa
           </motion.h1>
